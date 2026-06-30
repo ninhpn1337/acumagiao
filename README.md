@@ -1,8 +1,13 @@
 # acumagiao
-buld
+buildx
 
 ```
 docker buildx build --platform linux/amd64,linux/arm64 -t
+```
+
+build thường
+```
+sudo docker build -t acunetix_scan:25.1.250204093 .
 ```
 
 list images: 
