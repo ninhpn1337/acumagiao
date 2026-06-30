@@ -26,3 +26,7 @@ Run:
 ```
 docker run -d --name acunetix_scanner -p 3443:3443 acunetix_scan:25.1.250204093
 ```
+import
+```
+podman -i acunetix_scan-25.1.250204093.tar
+```
